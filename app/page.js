@@ -7,8 +7,8 @@ export default function Home() {
     <main className="!z-50 w-full">
       <div className="container">
         <Suspense fallback={<div>Loading location Detector...</div>}>
+          <LocationDetactor />
         </Suspense>
-        <LocationDetactor />
       </div>
     </main>
   );
