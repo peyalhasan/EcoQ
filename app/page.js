@@ -3,8 +3,10 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <>
-      <LocationDetactor />
-    </>
+    <main className="!z-50 w-full">
+      <div className="container">
+        <LocationDetactor />
+      </div>
+    </main>
   );
 }

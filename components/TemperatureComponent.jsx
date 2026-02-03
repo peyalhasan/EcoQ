@@ -7,7 +7,6 @@ async function TemperatureComponent({ lat, lon }) {
 
     const { temp, feels_like } = await getTemperatureData(lat, lon)
 
-    console.log(temp)
     return (
         <Card>
             <h6 className="feature-name">Current Temperature</h6>
